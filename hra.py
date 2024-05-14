@@ -1,23 +1,16 @@
 import random
 p = []
-k = 0
-
-while k<=5:
-     d = random.randint(0,5)
+d = random.randint(0,5)
 for x in range(d):
-        p.append(random.randint(1,10))
-        x = len(p)
-        print(p)
-        print(x)
-        a=input("jaka je delka pole?")
-        if a==p:
-           print("správně")
-           k+-1
-        else:
-           print("špatně")
+        p.append(random.randint(0,10))
+y = len(p)
+print(y)
+a = input("jaká je délka pole?")
+a = int(a)
+if a==y:
+        print("správně")
 
-    
-
-
-
-
+else:
+        print("špatně")
+print(a)
+print(y)
